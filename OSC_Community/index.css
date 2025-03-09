@@ -1,0 +1,92 @@
+/* CSS reset */
+:root{
+    --color-primary: #f3f3f3;
+    --color-olive: #4a4a02;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-lemongreen: #eaf98a;
+    --color-darkgrey: #333333;
+    --padding-default: 20px;
+    --default-border-radius: 10px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        width:600px;
+        font-family: 'Poppins', sans-serif;
+        color:var(--color-darkgrey);
+        background-color: rgb(216, 212, 212);
+    }
+    .container{
+        width:600px;
+        margin:0 auto;
+        padding:var(--padding-default);
+    }
+    
+    .title{
+        margin: 20px;
+        font-weight: 600;
+        color:  #e67ea6;
+        font-size: 30px;
+        margin-left: 30px;
+        display: inline-block;
+        border-radius: 4px;
+    }
+    .head{
+        margin: 10px;
+        padding: 7px;
+        border-radius: 4px;
+        background-color: var(--color-lemongreen);
+        display: inline-block;
+    
+    }
+    .head:hover {
+        background-color:#e67ea6 ;
+    }
+    .img{
+        width:100%;
+        border-radius: var(--default-border-radius);
+        margin: 10px;
+        transition: box-shadow 2s ease-in-out;
+    }
+    .img:hover{
+        box-shadow: 10px 10px 20px #71dbdb;
+    }
+    .para{
+        margin: 10px;
+        padding: 0 10px;
+        line-height: 1.5;
+        margin-left: 20px;
+    }
+    .list p {
+        width: 500px;
+    }
+    
+    .list{
+        margin: 10px 10px 10px 40px;
+        padding: 0 10px;
+    }
+    .element{
+        margin: 10px;
+        padding: 0 10px;
+        padding: 11px;
+    }
+    footer {
+        background-color: #eee;
+        display: inline-block ;
+        color: #e422a3;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 16px;
+        width: 50%;
+        bottom: 0;
+        margin-left: 150px;
+        border-radius: 7px;
+    }
+    
+    
+    
